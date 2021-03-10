@@ -1,0 +1,32 @@
+h2{
+    text-align: center;
+}
+button{
+    margin-left: 48.3%;
+}
+#gameScore{
+    color: white;
+    font-family: cursive;
+    font-size: 2rem;
+}
+#container {
+    /* margin-top: 50px; */
+    margin: 40px auto;
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+}
+.grid {
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: rgba(151, 140, 140, 0.795);
+    border: 2px solid black;
+    margin: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+} 
+body{
+    background-image: url("https://cdn.wallpapersafari.com/11/28/fWtTL3.jpg")
+}
